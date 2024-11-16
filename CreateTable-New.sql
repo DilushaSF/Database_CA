@@ -107,4 +107,4 @@ CREATE TABLE cash_book (
     credited_amount DECIMAL(10,2),
     transaction_date DATE,
 	CONSTRAINT CashBook_Vehicles_Fk FOREIGN KEY (vehicle_id) REFERENCES vehicles(vehicle_id) ON DELETE CASCADE
-);
+); 
